@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(33, 37, 41);
+    fill: rgb(33, 37, 41);
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(250,250,250);
+}
+
+/* HEADER STYLING */
+header {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-img {
+    width: calc(100vw - 2rem);
+    height: calc(100vw - 2rem);
+    object-fit: cover;
+    object-position: 0 30%;
+    display: block;
+    margin: 1rem auto 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-info {
+    height: calc(100vh - 100vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+
+.profile-info h1, .profile-info p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-info p {
+    font-size: 1.25rem;
+    color: rgb(104, 147, 128);
+}
+
+.profile-links a {
+    margin: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid rgba(199, 192, 192, 0.5);
+}
+
+.flink-button:nth-child(1) {
+    border-right: 1px solid rgba(199, 192, 192, 0.5);
+}
+
+.flink-button {
+    display: block;
+    width: 50%;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.flink-button svg {
+    vertical-align: top;
+}
