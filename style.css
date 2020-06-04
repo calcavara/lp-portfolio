@@ -7,7 +7,6 @@ html {
     margin: 0;
     padding: 0;
     color: rgb(33, 37, 41);
-    fill: rgb(33, 37, 41);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,6 +52,7 @@ header {
 
 .profile-links a {
     margin: 1rem;
+    fill: rgb(33, 37, 41);
 }
 
 .footer-links {
@@ -76,4 +76,50 @@ header {
 
 .flink-button svg {
     vertical-align: top;
+    fill: rgb(33, 37, 41);
+}
+
+/* MAIN STYLING */
+
+section {
+    padding: 1rem;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.section-header {
+    flex-grow: 1;
+    margin-right: 0.5rem;
+    text-transform: capitalize;
+}
+
+.section-header-decoration {
+    flex-grow: 1000;
+    width: auto;
+    height: 2px;
+    background-color: rgb(104, 147, 128);
+}
+
+.section-info {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+
+}
+
+.technologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.tech-logos {
+    display: block;
+    max-width: 3rem;
 }
