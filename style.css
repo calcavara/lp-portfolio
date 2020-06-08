@@ -105,6 +105,8 @@ section {
     background-color: rgb(104, 147, 128);
 }
 
+/* ABOUT ME */
+
 .section-info {
     text-align: justify;
     margin-bottom: 1.5rem;
@@ -124,6 +126,44 @@ section {
     max-width: 3rem;
 }
 
+/* PROJECTS */
 .project-title {
     font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.img-refs-holder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-holder {
+    border: 4px solid lightgrey;
+    border-radius: 1rem;
+}
+
+.project-sc {
+    width: 35vw;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.refs-holder {
+}
+
+.project-link {
+    text-decoration: none;
+    display: block;
+    margin: 2rem 0;
+}
+
+.project-limiter {
+    height: 1px;
+    background-color: lightgrey;
+    margin: 2rem auto;
+    border: none;
+    width: 50%;
 }
